@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-je_^g4tw80=b=vp+s*ug2b(xtgamo3b^bl-!39#jo8e0d_z)4(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+
+#TODO : allowed hosts to .evn
+# ALLOWED_HOSTS = config('ALLOWED_HOSTS').split(' ')
+
+ALLOWED_HOSTS = ['16.16.28.126', '127.0.0.1', 'localhost']
 
 
 # Application definition
